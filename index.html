@@ -1,78 +1,201 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人主页</title>
+    <title>节气文化：小满与夏至</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f5e9;
             margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background: #35424a;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-        nav {
-            margin: 10px 0;
-        }
-        nav a {
-            margin: 0 15px;
-            color: white;
-            text-decoration: none;
-        }
-        section {
             padding: 20px;
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        footer {
+        
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .left-column {
+            flex: 1;
+            padding: 20px;
+            background-color: #e8f4ea;
+        }
+        
+        .right-column {
+            flex: 1;
+            padding: 20px;
+            background-color: #fff;
+        }
+        
+        .character-section {
+            margin-bottom: 30px;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .character-section h2 {
+            color: #4a6b3a;
+            border-bottom: 2px solid #c1d8b7;
+            padding-bottom: 10px;
+        }
+        
+        .character-image {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin: 0 auto 15px;
+            display: block;
+            border: 5px solid #c1d8b7;
+        }
+        
+        .solar-term-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f5f9e8;
+            border-radius: 5px;
+        }
+        
+        .solar-term-section h2 {
+            color: #8a6d3b;
+            border-bottom: 2px solid #d4c48a;
+            padding-bottom: 10px;
+        }
+        
+        h1 {
             text-align: center;
-            padding: 10px 0;
-            background: #35424a;
-            color: white;
-            position: relative;
-            bottom: 0;
-            width: 100%;
+            color: #5a7247;
+            margin-bottom: 30px;
+            font-size: 2.2em;
+        }
+        
+        .intro {
+            text-align: center;
+            margin-bottom: 30px;
+            font-style: italic;
+            color: #666;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #777;
         }
     </style>
 </head>
 <body>
-
-<header>
-    <h1>欢迎来到我的个人主页</h1>
-    <nav>
-        <a href="#about">关于我&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a>兴趣
-        <a href="#projects">&nbsp;</a>
-        <a href="#contact">联系方式</a>
-    </nav>
-</header>
-
-<section id="about">
-    <h2>关于我</h2>
-    <p>杭州哇哈哈双语学校 WBS 8B&nbsp; Tyler 陈钰佳</p>
-</section>
-
-<section id="projects">
-  <h2>兴趣</h2>
-    <p>打篮球 听音乐 喜欢动物（鹿）&nbsp;</p>
-</section>
-
-<section id="contact">
-  <h2>联系方式</h2>
-    <p>15268522501</p>
-</section>
-
-<footer>
-  <p><a href="Baskall.html">Basketball page&nbsp;</a></p>
-</footer>
-
+    <div class="container">
+        <div class="left-column">
+            <h1>节气文化传承者</h1>
+            <p class="intro">探索中国传统节气文化的魅力，认识两位节气文化的虚拟传承者</p>
+            
+            <div class="character-section">
+                <h2>小满：节气形象&nbsp;</h2>
+                <img src="../Downloads/b8399392cfbfb37ca0701cb393102f62.jpg" alt="小满使者麦穗" class="character-image">
+              <p>小满是一位充满活力、精力充沛的女性，有着浅绿色和淡黄色的头发，黄色的眼睛，身着黄白相间的飘逸服饰，因为小满象征着夏季的温暖、生长和活力。接下来，我想谈谈性格。小满可能友善且富有爱心。所以我们使用了明亮的色彩。黄色既象征着季节的温暖，也代表着她外向、充满活力的性格。</p>
+                <p>作为小满节气的节气形象，她性格温和而充满活力，她熟知小满时节的农事活动、饮食习俗和民间传统。她喜欢在田野间漫步，观察作物的生长变化，并向人们传授节气养生知识。</p>
+                <p>小满的形象融合了中国传统农耕文化与现代审美，她的服饰图案包含麦穗、雨水和阳光等元素，寓意着自然与人类的和谐共处。她的使命是帮助现代人重新认识和珍惜传统节气文化。</p>
+                <p>在小满时节，她会特别忙碌，她要指导农民关注麦田的病虫害防治，提醒市民注意饮食调理以适应渐热的天气，还要组织各种节气文化活动，让更多人体验传统习俗的魅力。</p>
+                <p>小满的特别技能是能够感知作物的生长状态，预测天气变化。她随身携带一个小布袋，里面装着各种谷物种子，象征着生命的延续和丰收的希望。</p>
+          </div>
+            
+            <div class="character-section">
+                <h2>夏至：节气形象&nbsp;</h2>
+              <img src="../Downloads/0d9f45991ff3a32bdf86b549bcc923be.JPG" alt="夏至仙子阳炎" class="character-image">
+              <p>有着蓬松的金色短发，发丝自然又充满动感 ，像是被夏日的微风轻轻吹拂过。明亮的大眼睛透着灵动与活力，恰似夏至阳光般澄澈。身穿蓝白拼接的外套搭配黄色内搭，色彩清新明快，如同夏至时节清爽的蓝天与灿烂的阳光，洋溢着青春朝气，给人一种热情、开朗且充满活力的感觉。</p>
+                <p>夏至性格开朗热情，充满正能量。他熟知夏至时节的天文现象、传统习俗和养生之道。他喜欢在正午时分出现，向人们展示太阳的力量和夏季的美丽。</p>
+                <p>阳炎的形象融合了中国古代太阳崇拜和现代设计元素，她的服饰上有火焰、莲花和蝉的图案，代表着夏至时节的特征。她的使命是帮助人们在炎热的夏季保持健康和活力。</p>
+                <p>在夏至这一天，他会特别活跃，她要主持各种祭祀太阳的仪式，教导人们制作夏至面食，还要提醒大家注意防暑降温。她会组织观日影、测日晷等传统活动，让现代人体验古人的智慧。</p>
+              <p>夏至的特殊能力是能够调节周围环境的温度和光线。她随身携带一把绘有二十四节气的折扇，既能带来清凉，又能讲述每个节气的故事。她的出现总是伴随着温暖的光芒和欢乐的气氛。</p>
+                <p>&nbsp;</p>
+          </div>
+        </div>
+        
+        <div class="right-column">
+            <h1>节气知识</h1>
+            <p class="intro">了解中国传统二十四节气中的小满与夏至</p>
+            
+            <div class="solar-term-section">
+                <h2>小满节气</h2>
+                <p>小满是二十四节气中的第八个节气，夏季的第二个节气，通常在每年公历5月20日至22日之间，太阳到达黄经60°时开始。小满之名，有两层含义：一是指北方麦类等夏熟作物籽粒开始饱满，但还未完全成熟；二是指南方雨水开始增多，江河渐满。</p>
+                
+                <h3>物候特征</h3>
+                <p>中国古代将小满分为三候："一候苦菜秀，二候靡草死，三候麦秋至。"意思是小满节气中，苦菜已经枝叶繁茂；喜阴的一些枝条细软的草类在强烈的阳光下开始枯死；麦子开始成熟。</p>
+                
+                <h3>农事活动</h3>
+                <p>小满时节，北方地区的小麦等夏熟作物进入灌浆期，籽粒逐渐饱满，是产量形成的关键时期。此时需注意防治小麦锈病、白粉病、蚜虫等病虫害，同时要防御干热风、冰雹等自然灾害。南方地区则进入汛期，雨水增多，需做好防汛排涝工作。</p>
+                
+                <h3>传统习俗</h3>
+                <p>1. 祭车神：小满时节，农村地区有祭祀车神的习俗，祈求水利灌溉顺利，农作物丰收。</p>
+                <p>2. 祈蚕节：江浙一带在小满节气期间会举行祈蚕节，因为此时蚕开始结茧。</p>
+                <p>3. 吃苦菜：小满有吃苦菜的习俗，苦菜具有清热解暑的功效，符合中医"春夏养阳"的理念。</p>
+                
+                <h3>养生要点</h3>
+                <p>小满时节气温明显升高，雨水增多，养生应注意以下几点：</p>
+                <p>1. 饮食宜清淡，多吃清热利湿的食物，如苦瓜、冬瓜、赤小豆等。</p>
+                <p>2. 注意防暑降温，但不宜过度贪凉，避免"空调病"。</p>
+                <p>3. 保持心情舒畅，避免情绪波动过大。</p>
+                <p>4. 适当运动，如散步、太极拳等，增强体质。</p>
+                
+                <h3>诗词赏析</h3>
+                <p>《小满》宋·欧阳修</p>
+                <p>夜莺啼绿柳，皓月醒长空。<br>
+                最爱垄头麦，迎风笑落红。</p>
+                <p>这首诗描绘了小满时节夜晚的美景，以及麦田在微风中摇曳的生动画面，表达了诗人对丰收在望的喜悦之情。</p>
+            </div>
+            
+            <div class="solar-term-section">
+                <h2>夏至节气</h2>
+                <p>夏至是二十四节气中的第十个节气，夏季的第四个节气，通常在每年公历6月21日或22日，太阳到达黄经90°时开始。夏至这天，太阳直射地面的位置到达一年的最北端，几乎直射北回归线，北半球的白昼达到最长，且越往北白昼越长。</p>
+                
+                <h3>天文意义</h3>
+                <p>夏至是北半球一年中白昼最长、黑夜最短的一天。在中国古代，夏至被视为重要的天文节点，古人通过观测日影确定夏至时刻，并以此校正历法。夏至后，太阳直射点开始南移，北半球白昼逐渐缩短。</p>
+                
+                <h3>物候特征</h3>
+                <p>中国古代将夏至分为三候："一候鹿角解，二候蝉始鸣，三候半夏生。"意思是夏至时节，鹿角开始脱落；雄性的知了开始鸣叫；喜阴的药草半夏开始生长。</p>
+                
+                <h3>传统习俗</h3>
+                <p>1. 祭地仪式：古代夏至有祭地仪式，祈求五谷丰登。</p>
+                <p>2. 吃夏至面：北方有"冬至饺子夏至面"的习俗，夏至吃面象征长寿。</p>
+                <p>3. 互赠扇子：古人夏至有互赠扇子的习俗，寓意送来清凉。</p>
+                <p>4. 测日影：古代会通过测量日影长短来确定夏至时刻。</p>
+                
+                <h3>养生要点</h3>
+                <p>夏至时节阳气达到极盛，养生应注意以下几点：</p>
+                <p>1. 饮食宜清淡，多吃苦味食物如苦瓜、莲子心等，有助于清热解暑。</p>
+                <p>2. 适当补充水分和电解质，预防中暑。</p>
+                <p>3. 作息宜晚睡早起，顺应自然界阳盛阴衰的变化。</p>
+                <p>4. 运动宜选择清晨或傍晚，避免烈日暴晒。</p>
+                <p>5. 注意调节情绪，避免"情绪中暑"。</p>
+                
+                <h3>诗词赏析</h3>
+                <p>《夏至》唐·权德舆</p>
+                <p>璿枢无停运，四序相错行。<br>
+                寄言赫曦景，今日一阴生。</p>
+                <p>这首诗点明了夏至作为阴阳转换节点的特殊意义，虽然夏至阳气最盛，但此时阴气已经开始萌生，体现了古人对自然规律的深刻认识。</p>
+                
+                <h3>现代意义</h3>
+              <p>在现代社会，夏至不仅是传统节气，还被赋予了新的文化内涵。许多地方会举办夏至音乐节、夏至艺术节等活动。2016年，联合国教科文组织将中国的二十四节气列入人类非物质文化遗产代表作名录，夏至作为其中重要节气，其文化价值得到国际认可。</p>
+              <p>&nbsp;</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p><a href="solarterm.html">节气拓展&nbsp;</a></p>
+    </div>
 </body>
-</html> 
-
+</html>
